@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/slider/SliderWebPart.js",
+      "manifest": "./src/webparts/slider/SliderWebPart.manifest.json",
+      "outputPath": "./dist/slider.bundle.js"
+    }
+  ],
+  "externals": {
+    "jquery": {
+        "path": "node_modules/jquery/dist/jquery.min.js",
+        "globalName": "jQuery"
+      },
+      "swiper":{
+          "path":"node_modules/swiper/dist/js/swiper.js",
+          "globalName": "swiper"
+      },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "sliderStrings": "webparts/slider/loc/{locale}.js"
+  }
+}
