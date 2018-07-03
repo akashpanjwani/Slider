@@ -19,7 +19,6 @@ import {
 //import * as strings from 'sliderStrings';
 
 import { ISliderWebPartProps } from './ISliderWebPartProps';
-
 import * as $ from 'jquery';
 import * as bootstrap from 'bootstrap';
 var Swiper = require('swiper');
@@ -29,7 +28,6 @@ window["jQuery"] = $;
 
 export interface ISlides {
   value: ISlide[];
-
 }
 
 export interface ISlide {
@@ -390,7 +388,7 @@ export default class SliderWebPart extends BaseClientSideWebPart<ISliderWebPartP
   }
 
   protected onPropertyPaneConfigurationComplete(): void {
-    console.log("onPropertyPaneConfigurationComplete");
+    console.log("onPropertyPaneConfigurationComplete newUpdate");
   };
 
   protected get dataVersion(): Version {
