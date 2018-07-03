@@ -388,7 +388,7 @@ export default class SliderWebPart extends BaseClientSideWebPart<ISliderWebPartP
   }
 
   protected onPropertyPaneConfigurationComplete(): void {
-    console.log("onPropertyPaneConfigurationComplete newUpdate");
+    console.log("onPropertyPaneConfigurationComplete");
   };
 
   protected get dataVersion(): Version {
