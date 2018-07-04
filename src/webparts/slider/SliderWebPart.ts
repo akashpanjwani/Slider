@@ -352,7 +352,7 @@ export default class SliderWebPart extends BaseClientSideWebPart<ISliderWebPartP
               galleryThumbs.controller.control = galleryTop;
             });
         });
-        console.log("bind");
+        console.log("bind Sucessfully");
 
       }
       else {
